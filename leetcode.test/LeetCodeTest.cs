@@ -8,7 +8,6 @@ namespace leetcode.test
         [Fact]
         public void Test1()
         {
-
         }
     }
 }
