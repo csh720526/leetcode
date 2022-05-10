@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/leetcode.test/bin/Debug/netcoreapp3.1/leetcode.test.dll",
+            "program": "${workspaceFolder}/leetcode.test/bin/Debug/net6.0/leetcode.test.dll",
             "args": [],
             "cwd": "${workspaceFolder}/leetcode.test",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
