@@ -1,9 +1,6 @@
-using System.Diagnostics.Contracts;
-using System;
+using System.Text;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace leetcode.lib.Medium
 {
@@ -28,9 +25,7 @@ namespace leetcode.lib.Medium
         {
             if (string.IsNullOrEmpty(digits))
                 return new List<string>();
-
-            var rslt = new List<string>();
-            StringBuilder sb = new();
+                
             LinkData root = null;
             LinkData linkData = null;
 
@@ -57,6 +52,7 @@ namespace leetcode.lib.Medium
         private void Caculate(LinkData linkData, string value = "")
         {
             string rsltValue = string.Empty;
+            StringBuilder sb = new StringBuilder();
 
             for (var i = 0; i < linkData.Data.Count(); i++)
             {
